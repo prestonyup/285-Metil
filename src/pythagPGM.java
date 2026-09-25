@@ -18,6 +18,14 @@ public class pythagPGM {
         System.out.println(x: "Enter first side: ");
         int num3 = input.nextInt();
 
+        if num1 > num2 + num3{
+            System.out.println(x: "Not a triangle")
+        }if num2 > num1 + num3{
+            System.out.println(x: "Not a triangle")
+        }if num3 > num1 + num2{
+            System.out.println(x: "Not a triangle")
+        }
+
         if (Math.pow(num1, b: 2) == Math.pow(num2, b: 2) + Math.pow(num3, b: 2)){
             System.out.println(x: "Right Triangle");
         }if (Math.pow(num1, b: 2) + Math.pow(num2, b: 2) == Math.pow(num3, b: 2)){
@@ -29,5 +37,4 @@ public class pythagPGM {
         }
         input.close();
     }
-
 }

@@ -3,7 +3,7 @@
 // (3) Compute with a 'for loop'
 
 import java.util.Scanner;
-
+/*
 public class pi {
     public static void main(String[] args) {
         System.out.println("pi = " + Math.PI);
@@ -29,3 +29,9 @@ public class pi {
         input.close();
     }
 }
+*/
+
+public class pi
+    public static void main(String[] args) {
+        
+    }
